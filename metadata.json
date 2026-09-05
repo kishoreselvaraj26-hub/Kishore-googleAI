@@ -1,0 +1,8 @@
+{
+  "name": "CloudInsight AI",
+  "description": "CloudInsight AI – AI-Powered Business Analytics. Turn business data into intelligent decisions with Gemini, Cloud Firestore, and Google Cloud Run.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "entities": {
+    "Interaction": {
+      "path": "users/{userId}/interactions/{interactionId}",
+      "description": "User-isolated business analytics queries, KPI snapshots, and Gemini analytical reports.",
+      "fields": {
+        "title": { "type": "string", "description": "Short headline of the analytical inquiry" },
+        "question": { "type": "string", "description": "Natural language business question asked by user" },
+        "analysis": { "type": "string", "description": "Structured AI report with Answer, Key Finding, Insight, and Recommendation" },
+        "datasetName": { "type": "string", "description": "Name of the dataset queried" },
+        "kpisSnapshot": { "type": "object", "description": "Key metrics snapshot at time of inquiry" },
+        "modelUsed": { "type": "string", "description": "Gemini model version executing the reasoning" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of creation" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last update" }
+      }
+    }
+  }
+}

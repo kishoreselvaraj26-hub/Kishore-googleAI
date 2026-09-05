@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudInsight AI – AI-Powered Business Analytics</title>
+    <meta name="description" content="Turn business data into intelligent decisions with Gemini. Upload business datasets, track KPIs, explore interactive charts, and get automated AI insights." />
+    <meta property="og:title" content="CloudInsight AI – AI-Powered Business Analytics" />
+    <meta property="og:description" content="Turn business data into intelligent decisions with Gemini. Upload business datasets, track KPIs, explore interactive charts, and get automated AI insights." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Prevent benign dev-server WebSocket reconnection failures in sandboxed iframes from triggering error overlays
+      window.addEventListener('unhandledrejection', function (event) {
+        var reason = event.reason;
+        var message = (reason && (reason.message || reason.description || reason)) || '';
+        if (
+          typeof message === 'string' &&
+          (message.includes('WebSocket') || message.includes('websocket') || message.includes('closed without opened'))
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

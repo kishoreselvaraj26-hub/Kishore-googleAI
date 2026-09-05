@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FDFBF7;
+    color: #4A443F;
+  }
+}
+
+.markdown-body {
+  color: #4A443F;
+}
+
+.markdown-body p {
+  margin-bottom: 0.75rem;
+  line-height: 1.65;
+}
+
+.markdown-body p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+
+.markdown-body strong {
+  color: #3E4D35;
+  font-weight: 600;
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid #DDE5D7;
+  padding-left: 0.75rem;
+  margin: 0.75rem 0;
+  font-style: italic;
+  color: #706A61;
+  background-color: #FDFBF7;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
